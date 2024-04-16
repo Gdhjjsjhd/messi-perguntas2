@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(barcelona-fc-wooden-texture-05kuiv3bl82sx7dw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+#messi{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 100%;
+}
+
+p{
+    color: 	#B404AE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-shadow: black;
+    font-size: 20px;
+}
+
+.texto{
+    color: #B404AE;
+     align-items: center;
+     justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px 10px black;
+    font-size: 50px;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 540px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #B404AE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:#EDBB00;
+    text-shadow: black;
+    font-size: 20px;
+}
+
+input{
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 500px;
+    padding: 10px 20px;
+}
+
+.imagem{
+    border-radius: 8%;
+}
+
+.text:focus{
+    outline: #EDBB00 auto px;
+}
